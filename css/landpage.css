@@ -1,4 +1,36 @@
-#landpage
+div.landpage
 {
-    
+    position:fixed;
+    top:0;left:0;right:0;bottom:0;
+}
+
+ul.landpage
+{
+    position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-60px;
+    height:120px; width:100%;
+    list-style-type:none;
+    text-align:center;
+    font-size:0;
+}
+
+ul.landpage > li
+{
+    display:inline-block;
+    width:120px;
+    height:120px;
+    background:#FFFFFF;
+    border-radius:50%;
+    box-shadow:0 0 5px #333333;
+    margin:0 60px;
+    transition:all 0.25s;
+}
+ul.landpage > li:hover
+{
+    box-shadow:0 0 12px #333333;
+    width:140px;
+    height:140px;
+    margin:-10px 50px;
 }
